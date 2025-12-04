@@ -1,13 +1,22 @@
+/* Existing styles for your page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* X icon styles */
 .x-icon {
     position: fixed;         
-    left: 20px;              /* ← horizontal position */
-    top: 40%;                /* ← vertical position */
+    left: 20px;              /* horizontal position, adjust as needed */
+    top: 40%;                /* vertical position, adjust as needed */
     
     width: 40px;
     height: 40px;
 
     border: 2px solid #000;  /* empty border */
-    border-radius: 50%;      /* makes it round (optional) */
+    border-radius: 50%;      /* makes it round */
 
     color: #000;
     font-size: 24px;
@@ -28,3 +37,4 @@
 .x-icon:hover {
     background: rgba(0,0,0,0.05);
 }
+
