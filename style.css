@@ -1,15 +1,30 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>CSS Test</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>TEST — If styled, you should see green text & dark background</h1>
-  </body>
-</html>
-body {
-  background-color: #333;
-  color: #0f0;
+.x-icon {
+    position: fixed;         
+    left: 20px;              /* ← horizontal position */
+    top: 40%;                /* ← vertical position */
+    
+    width: 40px;
+    height: 40px;
+
+    border: 2px solid #000;  /* empty border */
+    border-radius: 50%;      /* makes it round (optional) */
+
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent; /* see layout through */
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.x-icon:hover {
+    background: rgba(0,0,0,0.05);
 }
